@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="GgRd">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ggrd.fr/">
+    <meta property="og:description" content="Site officiel de GgRd">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/799352827859959838/1022958465368469624/Sans_titre_91_20220414025838.png?width=593&height=593">
+    <meta name="description" content="Site officiel de GgRd">
+    <meta name="keywords" content="ggrd, GgRd, NiroxyRecords, GgRd Artiste, gg rd">
+    <meta name="author" content="GgRd">
+    <title>GgRd</title>
+	<link href="https://cdn.discordapp.com/attachments/799352827859959838/859154026059006002/ggrd_bage_1.72.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">À propos</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Travail</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>GgRd</h1>
+        <h2>Jeune développeur / Manager / Streameur / Beatmaker</h2>
+        <div id="menu">
+            <a onclick="showabout()">À propos de moi</a>
+            <a onclick="showwork()">Compétances</a>
+            <a onclick="showcontact()">Contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://twitter.com/GgRd_"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://youtube.com/channel/UCqQ170CCWXdCeEJhGffLf3Q"><i class="fab fa-youtube"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://instagram.com/gg_rd"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://discord.ggrd.fr"><i class="fab fa-discord"></i></a></td>
+					<td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://open.spotify.com/artist/0QUuzBfkb9PlPR0L0bKA4e?si=dBlr2YKUSeqXMg7JVoZtWw"><i class="fab fa-spotify"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Mes compétances</h1>
+        <section>
+			<h2>Développeur</h2>
+			<p>
+			    Pour ce point, j'ai développer pas mal de choses mais pas mal de projet abandonné également. Je sais développer de l'HTML/CSS, aussi du JavaScript pour des bots discord & des bots modération pour des chaines Twitch.
+			</p>
+			<h2>Vidéos</h2>
+			<p>
+			    Alors j'ai pu réaliser plusieurs vidéos sur Youtube, actuellement mise toutes en privé. J'ai aussi plusieurs chaines Youtube à mon actif avec plusieurs thèmes différents ainsi que tiktok, une notamment pour partager des clips de streameurs twitch.
+			</p>
+            <h2>Administrateur</h2>
+            <p>
+                Je suis quelqu'un qui aime beaucoup gérer des projets en tant qu'administrateur. J'ai pu faire mon propre serveur et j'ai aussi été administrateur sur un serveur Faction. Si vous cherchez un administrateur ! Vous êtes sur la bonne page.
+            </p>
+            <div id="used">
+			<h2>Mes connaissances</h2>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+				<div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+				<div><i class="fas fa-circle"></i>&nbsp;Discord.js</div>
+				<div><i class="fas fa-circle"></i>&nbsp;Twitch API</div>
+				<div><i class="fas fa-circle"></i>&nbsp;Twitter</div>
+            </div>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>À propos de moi</h1>
+            <section>
+                <p>
+                    Je me présente vite fait je m'appelle Rayan j'ai 17 ans. J'aime beaucoup développer des petites choses ou simplement apprendre seul en autodidacte. Je suis également très autonome je fais pratiquement tout seul, je demande très peu d'aide. Et pour finir par un défaut je ne suis pas patient ahah ça peut être aussi un avantage.
+                </p>
+            </section>
+            <section>
+                <h2>Mes compétences</h2>
+                <p>
+                    je fait un peu de tout en vrai ;)
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact</h1>
+            <section>
+                <h2>Pour me contactez tu as juste a remplir ça !</h2>
+                <p>
+                    <form action="/contact.php" method="post">
+                        <input type="text" placeholder="Nom" id="name" name="name" required>
+                        <input type="email" placeholder="Email" id="email" name="email" required><br>
+                        <textarea placeholder="Votre message" id="message" name="message" required rows="5"></textarea><br>
+                        <button class="btn_one" type="submit">Envoyez</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            Fait sur terre par un humain <br> <a href="https://ggrd.fr/twitter">GgRd</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
